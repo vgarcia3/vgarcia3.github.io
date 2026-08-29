@@ -604,6 +604,31 @@ a {
     color: var(--cloud);
 }
 
+/* ==========================================================
+   About Me
+========================================================== */
+
+.about-section {
+    background: var(--snow);
+}
+
+.about-content {
+    max-width: 820px;
+
+    font-size: 1.05rem;
+    line-height: 1.85;
+
+    color: var(--text-light);
+}
+
+.about-content p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
 
 /* ==========================================================
    Mobile
