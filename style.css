@@ -286,35 +286,39 @@ a {
 
 
 /* ==========================================================
-   Main hero image
+   C-130 hero photograph
 ========================================================== */
 
-.hero-image {
-    margin-top: 70px;
+.hero-aircraft {
+    margin:
+        70px
+        0
+        0;
 }
 
-.image-placeholder {
-    height: 500px;
+.hero-aircraft-photo {
+    display: block;
+
+    width: 100%;
+    height: auto;
 
     border-radius: 5px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow:
+        0 10px 30px
+        rgba(38, 59, 73, 0.08);
+}
 
-    background:
-        linear-gradient(
-            135deg,
-            var(--cloud-light),
-            var(--cloud),
-            var(--steel-blue)
-        );
+.hero-aircraft figcaption {
+    margin-top: 10px;
 
-    color: white;
+    text-align: right;
 
-    letter-spacing: 0.15em;
+    font-size: 0.78rem;
 
-    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+
+    color: var(--text-light);
 }
 
 
@@ -678,12 +682,12 @@ a {
         text-align: center;
     }
 
-    .hero-image {
+    .hero-aircraft {
         margin-top: 55px;
     }
 
-    .image-placeholder {
-        height: 300px;
+    .hero-aircraft figcaption {
+        text-align: center;
     }
 
     .research-grid,
