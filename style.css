@@ -418,6 +418,27 @@ a {
     margin-bottom: 0;
 }
 
+/* ==========================================================
+   Photo captions
+========================================================== */
+
+.portrait-wrapper,
+.about-photo-wrapper {
+    margin: 0;
+}
+
+.portrait-wrapper figcaption,
+.about-photo-wrapper figcaption {
+    margin-top: 10px;
+
+    text-align: right;
+
+    font-size: 0.78rem;
+
+    letter-spacing: 0.03em;
+
+    color: var(--text-light);
+}
 
 /* ==========================================================
    Footer
