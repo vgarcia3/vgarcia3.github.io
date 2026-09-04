@@ -482,6 +482,107 @@ a {
     color: var(--cloud);
 }
 
+/* =========================================================
+   Research Page
+========================================================= */
+
+.research-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 80px 32px 100px;
+}
+
+
+/* ---------------------------------------------------------
+   Research introduction
+--------------------------------------------------------- */
+
+.research-intro {
+    max-width: 1000px;
+}
+
+.research-intro h1 {
+    margin: 0 0 28px;
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    line-height: 1;
+    color: var(--deep-storm);
+}
+
+.research-intro p {
+    margin: 0;
+    max-width: 950px;
+    font-size: 1.08rem;
+    line-height: 1.85;
+    color: var(--text);
+}
+
+
+/* ---------------------------------------------------------
+   Main research sections
+--------------------------------------------------------- */
+
+.research-section {
+    margin-top: 65px;
+    padding-top: 55px;
+    border-top: 1px solid var(--cloud);
+}
+
+.research-section h2 {
+    margin: 0 0 28px;
+    font-size: 2.35rem;
+    line-height: 1.2;
+    color: var(--deep-storm);
+}
+
+.research-title {
+    max-width: 950px;
+    margin: 0 0 24px;
+    font-size: 1.45rem;
+    line-height: 1.45;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--storm-blue);
+}
+
+.research-affiliation {
+    margin: 0 0 28px;
+    font-weight: 600;
+    color: var(--deep-storm);
+}
+
+.research-section > p:not(.research-affiliation) {
+    max-width: 1000px;
+    margin: 0;
+    font-size: 1.04rem;
+    line-height: 1.85;
+    color: var(--text);
+}
+
+
+/* ---------------------------------------------------------
+   Research figures
+--------------------------------------------------------- */
+
+.research-figure {
+    margin: 45px 0 0;
+}
+
+.heterogeneity-figure {
+    max-width: 1000px;
+}
+
+.research-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.research-figure figcaption {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.84rem;
+    color: var(--text-light);
+}
 
 /* ==========================================================
    Mobile
@@ -604,6 +705,33 @@ a {
             30px;
 
         font-size: 2.2rem;
+    }
+
+    /* Research page */
+
+    .research-page {
+        padding: 60px 22px 75px;
+    }
+
+    .research-intro h1 {
+        font-size: 2.8rem;
+    }
+
+    .research-section {
+        margin-top: 50px;
+        padding-top: 45px;
+    }
+
+    .research-section h2 {
+        font-size: 2rem;
+    }
+
+    .research-title {
+        font-size: 1.25rem;
+    }
+
+    .research-figure {
+        margin-top: 35px;
     }
 
 }
