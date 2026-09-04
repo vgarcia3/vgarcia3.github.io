@@ -566,13 +566,13 @@ a {
 .dissertation-overview {
     width: 1080px;
     max-width: calc(100vw - 64px);
-    margin-left: 50%;
-    transform: translateX(-50%);
 
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: 36px;
     align-items: center;
+
+    margin-left: 0;
 }
 
 .dissertation-overview-text p {
