@@ -418,6 +418,7 @@ a {
     margin-bottom: 0;
 }
 
+
 /* ==========================================================
    Photo captions
 ========================================================== */
@@ -439,6 +440,7 @@ a {
 
     color: var(--text-light);
 }
+
 
 /* ==========================================================
    Footer
@@ -482,6 +484,7 @@ a {
     color: var(--cloud);
 }
 
+
 /* =========================================================
    Research Page
 ========================================================= */
@@ -504,15 +507,19 @@ a {
 
 .research-intro h1 {
     margin: 0 0 28px;
+
     font-size: clamp(2.7rem, 4vw, 4rem);
     line-height: 1;
+
     color: var(--deep-storm);
 }
 
 .research-intro p {
     margin: 0;
+
     font-size: 1.08rem;
     line-height: 1.8;
+
     color: var(--text);
 }
 
@@ -523,84 +530,93 @@ a {
 
 .research-section {
     max-width: 920px;
+
     margin: 65px auto 0;
     padding-top: 30px;
+
     border-top: 1px solid var(--cloud);
 }
 
 .research-section h2 {
     margin: 0 0 30px;
+
     font-size: 2.3rem;
     line-height: 1.2;
+
     color: var(--deep-storm);
 }
 
 .research-title {
     margin: 0 0 24px;
+
     font-size: 1.5rem;
     line-height: 1.45;
+
     font-style: italic;
     font-weight: 600;
+
     color: var(--deep-storm);
 }
 
 .research-affiliation {
     margin: 0 0 28px;
+
     font-size: 1rem;
     font-weight: 600;
-    color: var(--storm-blue);
-}
 
-.research-section > p:not(.research-affiliation) {
-    margin: 0;
-    font-size: 1.04rem;
-    line-height: 1.82;
-    color: var(--text);
+    color: var(--storm-blue);
 }
 
 
 /* ---------------------------------------------------------
-   Dissertation overview: text + figure
+   Dissertation overview
 --------------------------------------------------------- */
 
 .dissertation-overview {
-    width: 1080px;
-    max-width: calc(100vw - 64px);
-
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 36px;
-    align-items: center;
-
-    margin-left: 0;
-}
-
-.dissertation-overview-text p {
-    margin: 0;
-    font-size: 1.04rem;
-    line-height: 1.82;
-    color: var(--text);
+    margin-top: 34px;
 }
 
 .heterogeneity-figure {
-    margin: 0;
-    width: 100%;
+    width: min(100%, 650px);
+
+    margin:
+        0
+        auto
+        32px;
 }
 
 .heterogeneity-figure img {
     display: block;
+
     width: 100%;
     height: auto;
 }
 
 .heterogeneity-figure figcaption {
     margin-top: 10px;
+
     text-align: center;
+
     font-size: 0.82rem;
     font-style: italic;
     line-height: 1.4;
+
     color: var(--text-light);
 }
+
+.dissertation-overview-text {
+    max-width: 100%;
+}
+
+.dissertation-overview-text p {
+    margin: 0;
+
+    font-size: 1.04rem;
+    line-height: 1.82;
+
+    color: var(--text);
+}
+
 
 /* ---------------------------------------------------------
    Dissertation Parts
@@ -612,16 +628,20 @@ a {
 
 .part-title {
     margin: 0 0 24px;
+
     font-size: 1.65rem;
     line-height: 1.3;
     font-weight: 600;
+
     color: var(--deep-storm);
 }
 
 .dissertation-part > p {
     margin: 0 0 24px;
+
     font-size: 1.04rem;
     line-height: 1.82;
+
     color: var(--text);
 }
 
@@ -640,45 +660,65 @@ a {
 
 .slw-overview {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
     gap: 36px;
+
     align-items: center;
 }
 
 .slw-text p {
     margin: 0;
+
     font-size: 1.04rem;
     line-height: 1.82;
+
     color: var(--text);
 }
 
 .slw-figure {
     margin: 0;
+
     width: 100%;
 }
 
 .slw-images {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
     gap: 8px;
 }
 
 .slw-images img {
     display: block;
+
     width: 100%;
+
     aspect-ratio: 4 / 3;
+
     object-fit: cover;
+
     border-radius: 3px;
 }
 
 .slw-figure figcaption {
     margin-top: 10px;
+
     text-align: center;
+
     font-size: 0.82rem;
     font-style: italic;
     line-height: 1.4;
+
     color: var(--text-light);
 }
+
 
 /* ==========================================================
    Mobile
@@ -803,10 +843,14 @@ a {
         font-size: 2.2rem;
     }
 
+
     /* Research page */
 
     .research-page {
-        padding: 60px 22px 80px;
+        padding:
+            60px
+            22px
+            80px;
     }
 
     .research-intro,
@@ -831,20 +875,22 @@ a {
         font-size: 1.25rem;
     }
 
-    .research-figure {
-        max-width: 100%;
-        margin-top: 35px;
-    }
+
+    /* Dissertation overview */
 
     .dissertation-overview {
-        grid-template-columns: 1fr;
-        gap: 30px;
+        margin-top: 28px;
     }
 
     .heterogeneity-figure {
         width: min(100%, 500px);
-        margin: 0 auto;
+
+        margin:
+            0
+            auto
+            28px;
     }
+
 
     /* Dissertation parts */
 
@@ -861,11 +907,13 @@ a {
 
     .slw-overview {
         grid-template-columns: 1fr;
+
         gap: 25px;
     }
 
     .slw-figure {
         width: min(100%, 550px);
+
         margin: 0 auto;
     }
 
